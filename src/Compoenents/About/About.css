@@ -1,0 +1,20 @@
+*{
+    background-color: #111c34;
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;   
+    color: rgb(192, 210, 226);
+}
+.about-container{
+    padding-top: 70px;
+    line-height: 1.5;
+    margin-left: 15%;
+    margin-right: 15%;
+    /* height: 450px; */
+    font-size: 16px;
+    font-weight: 300;
+}
+span{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 14px;
+    }
