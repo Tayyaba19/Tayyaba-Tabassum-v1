@@ -1,9 +1,9 @@
 .div-exp{
-  margin-bottom: 20%;
+  margin-bottom: 10%;
   margin-right: 15%;
   margin-left: 15%;
   line-height: 1.5;
-  margin-top: 150px;
+  margin-top: 80px;
   font-family: Inter, sans-serif;
   font-feature-settings: 'liga' 1, 'calt' 1;
   display: inline-block;
@@ -117,13 +117,7 @@ h1{
  font-style:normal; 
 }
 
-.resume{
-  margin-left: 30px;
-  text-decoration: underline;
-  font-style:initial;
- font-weight: bold;
- cursor: pointer;
-}
+
 .svg{
   margin-bottom: -83px;
   cursor: pointer;
@@ -136,15 +130,28 @@ h1{
 overflow-block:scroll;
  
 } */
+.resume:hover{
+  color: aqua;
+}
 .resume{
   cursor: pointer;
   font-size: 14px;
+  text-decoration: none;
 }
-.resume:hover{
+
+.resume a{
+  text-decoration: none;
+}
+.resume a:hover{
+  /* color: aqua; */
   text-decoration: underline;
 }
+/* .resume .diagonal-icon:hover{ 
+  font-size: 2ex;
+  color: aqua;
 
-
+  
+} */
 @media only screen and (max-width: 768px) {
   .div-exp{
     margin-top: 10%;
@@ -154,4 +161,27 @@ overflow-block:scroll;
   font-feature-settings: 'liga' 1, 'calt' 1;
   display: inline-block;
 }
+}
+.diagonal-icon {
+  color:aliceblue;
+  transform: rotate(45deg);
+}
+/* .div-exp h4{
+  display: none;
+} */
+@media only screen and (max-width: 768px) {
+  .div-exp{
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    line-height: 1.5;
+    margin-top: 100px;
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+    display: inline-block;
+    height: 400px;
+  }
+  .div-exp .h1-class{
+display: none; 
+ }
 }

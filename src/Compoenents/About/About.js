@@ -4,6 +4,7 @@ function About() {
   return (
     <div id="about">
       <p className="about-container">
+        <h4>ABOUT</h4>
         Hey there! I'm Tayyaba Tabassum, a dynamic and passionate Software
         Engineer with a knack for crafting digital experiences that seamlessly
         blend design and functionality.I'm a graduated Software Engineer with a 

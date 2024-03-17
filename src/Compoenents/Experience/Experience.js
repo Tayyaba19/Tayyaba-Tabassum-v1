@@ -30,15 +30,10 @@ function Experience() {
       description: (
         <div>
           <i className="fas fa-chevron-right"></i>
-          &nbsp;&nbsp;Developed modules using .NET Core and Angular for the Sohni Dharti
-          Remittance Program (SDRP), optimizing the monitoring of payment
-          routing from international sources to Pakistan.
-          <br />
+          &nbsp;&nbsp;Led the enhancement of a pivotal project focused on generating Text and Excel (Crystal) reports to facilitate the settlement of transaction amounts across multiple banks.  <br />
           <br />
           <i className="fas fa-chevron-right"></i>
-          &nbsp;&nbsp;Responsible for enhancement of a project to generate Text and Excel
-          (Crystal) reports for settlement of transaction amount across multiple
-          banks.
+          &nbsp;&nbsp;Instrumental in developing innovative solutions for a fast and efficient report-generating system in .NET Core, with a robust MySQL database backend. Demonstrated expertise in problem-solving and optimizing project performance.
         </div>
       ),
     },
@@ -51,16 +46,12 @@ function Experience() {
       description: (
         <div>
           <i class="fas fa-chevron-right"></i>
-          &nbsp;&nbsp; Developed the frontend of a blog management application using
-          React.js, ensuring an intuitive and user-friendly interface for
-          seamless navigation and content management.
-          <br />          <br />
-
+          &nbsp;&nbsp; Contributed significantly to the development of a blog management application by spearheading the frontend design using React.js.<br />          <br />
           <i class="fas fa-chevron-right"></i>
-          &nbsp; &nbsp;Developed the frontend of a blog management application using
-          React.js, ensuring an intuitive and user-friendly interface for
-          seamless navigation and content management.{" "}
-        </div>
+          &nbsp;&nbsp;Ensured an intuitive and user-friendly interface, enhancing the overall user experience for seamless navigation and content management.       
+         <br /><br />
+          <i class="fas fa-chevron-right"></i>
+          &nbsp; &nbsp;Collaborated in designing REST APIs with Next.js, contributing to the establishment of a robust and efficient backend infrastructure for the blog management application.     </div>
       ),
     },
     {
@@ -71,14 +62,16 @@ function Experience() {
       description: (
         <div>
           <i class="fas fa-chevron-right"></i>
-          &nbsp;&nbsp; Provided guidance and support to students during the Programming
-          Fundamental (PF) lab sessions.
+          &nbsp;&nbsp; Provided invaluable guidance and support to students during Programming Fundamental (PF) lab sessions.
           <br />          <br />
 
           <i class="fas fa-chevron-right"></i>
-          &nbsp;&nbsp;Review and assess students' lab exercises, offering
-          explanations and guidance for correct solutions as required.
-        </div>
+          &nbsp;&nbsp;Conducted thorough reviews and assessments of students' lab exercises, offering explanations and guidance for correct solutions. 
+          <br />          <br />
+
+<i class="fas fa-chevron-right"></i>
+&nbsp;&nbsp;Played a pivotal role in fostering a conducive learning environment, ensuring students received comprehensive assistance in grasping fundamental programming concepts.
+          </div>
       ),
     },
   ];
@@ -90,6 +83,7 @@ function Experience() {
   return (
     <div className="div-exp" id="experience">
       <h1 className="h1-class">Where I've Worked</h1>
+    <h4>EXPERIENCE</h4>
       {/* <hr /> */}
       <div className="experience-container">
       <div className="company-list">
@@ -126,8 +120,10 @@ function Experience() {
           )}
         </div>
       </div>
-      <h3 className="resume" ><a href="https://drive.google.com/document/your_document_id_here">View full Resume</a></h3>
-<i class="fa fa-arrow-up-left custom-icon"></i>
+      <h3 className="resume" >
+        <a href="https://drive.google.com/file/d/1mpkntV5Rv5fN7uR593y4ZgXcJFWfXR69/view?usp=sharing" target="_blank" rel="noopener noreferrer">View full Resume</a>     
+         <i class="fas fa-arrow-up fa-1x diagonal-icon"  ></i>
+       </h3>
 
     </div>
   );
