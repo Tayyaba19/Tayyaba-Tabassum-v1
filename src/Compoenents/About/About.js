@@ -12,7 +12,7 @@ function About() {
         <br />
         <br />
         My journey into the world of coding began with a deep dive into web
-        development and coding back in 2019. Fast forward to the present, and
+        development and coding back in 2019. Fast forward to the present,
         I've had the incredible opportunity to contribute my skills to a variety
         of projects.
         <br />
