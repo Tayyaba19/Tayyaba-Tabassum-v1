@@ -1,7 +1,7 @@
 {
   "name": "your-project-name",
   "version": "0.1.0",
-  "homepage": "https://Tayyaba19.github.io/Tayyaba_Tabassum_v1/",
+  "homepage": "https://Tayyaba19.github.io/Tayyaba_Tabassum_v1",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
@@ -47,6 +47,7 @@
     "gh": "^2.8.9",
     "gh-pages": "^6.1.1",
     "pages": "^0.0.16",
-    "react-router-dom": "^6.21.0"
+    "react-router-dom": "^6.21.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.5"
   }
 }
