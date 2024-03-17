@@ -63,11 +63,11 @@ function Project() {
                 </div>
                   <div className="tooltip">
                   <i className="fas fa-heart"></i>
-                {/* <span className="tooltiptext">find the code</span> */}
+                <span className="tooltiptext">This feature is under development</span>
               </div>
                 <div className="tooltip">
                   <i className="fas fa-comment"></i>
-                  <span className="tooltiptext">feedback</span>
+                  <span className="tooltiptext">This feature is under development</span>
                 </div>
                   {/* <div className="tooltip">
                   <i className="fas fa-link"></i>
