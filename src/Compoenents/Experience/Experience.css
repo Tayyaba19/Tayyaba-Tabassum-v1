@@ -110,26 +110,6 @@ font-weight: 300;
   padding: 5px;
   border-radius: 3px;
 }
-
-/* 
-h1{
- color: rgb(255, 255, 255);
- font-style:normal; 
-}
-
-
-.svg{
-  margin-bottom: -83px;
-  cursor: pointer;
-}
-.vl{
-  margin-top: 10px;
-  border: 1px solid floralwhite;
-  height: 300px;
-  overflow-y:hidden;
-overflow-block:scroll;
- 
-} */
 .resume:hover{
   color: aqua;
 }
@@ -146,42 +126,127 @@ overflow-block:scroll;
   /* color: aqua; */
   text-decoration: underline;
 }
+.diagonal-icon {
+  color:aliceblue;
+  transform: rotate(45deg);
+}
 /* .resume .diagonal-icon:hover{ 
   font-size: 2ex;
   color: aqua;
 
   
 } */
+
 @media only screen and (max-width: 768px) {
   .div-exp{
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
-   font-family: Inter, sans-serif;
-  font-feature-settings: 'liga' 1, 'calt' 1;
-  display: inline-block;
-}
-}
-.diagonal-icon {
-  color:aliceblue;
-  transform: rotate(45deg);
-}
-/* .div-exp h4{
-  display: none;
-} */
-@media only screen and (max-width: 768px) {
-  .div-exp{
-    margin-bottom: 10%;
+    margin-bottom: 0%;
     margin-right: 10%;
     margin-left: 10%;
     line-height: 1.5;
-    margin-top: 100px;
+    margin-top: 0;
     font-family: Inter, sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1;
-    display: inline-block;
+    /* display: inline-block; */
     height: 400px;
   }
   .div-exp .h1-class{
 display: none; 
  }
+ .company-list {
+  display: block;
+}
+
+.company-item {
+  
+  margin-right: 10px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.company-item:hover {
+  background-color: #35415a;
+}
+
+.vertical-line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #2d384f;
+}
+
+.selected {
+  color: aqua;
+  background-color: #35415a;
+}
+
+.selected .vertical-line {
+  background-color: aqua;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-details {
+  padding-left: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.date {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.job-title {
+  font-size: 16px;
+}
+
+.company {
+  margin-left: 2px;
+  color: aqua;
+  font-size: 16px;
+  font-weight: light;
+}
+
+.company:hover {
+  text-decoration: underline;
+  transition: 0.4s;
+}
+
+.job-title,
+.company,
+.date {
+  margin: 0;
+}
+
+.description {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.resume {
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.resume a {
+  text-decoration: none;
+}
+
+.resume a:hover {
+  text-decoration: underline;
+}
 }
