@@ -43,13 +43,9 @@ function Project() {
         <h4>PROJECT</h4>
         {projectdata.map((project) => (
           <div key={project.id} className="project-details">
-            <div className="column">
-              <img src={project.image} alt={project.Title} />
-            </div>
-            <div className="column">
               <h2>{project.Title}</h2>
               <p className="details">{project.description}</p>
-              <ul className="skills">
+              <ul className="project-skills">
                 {project.technologies.map((tech) => (
                   <li key={tech}>{tech}</li>
                 ))}
@@ -74,7 +70,6 @@ function Project() {
                   <span className="tooltiptext">see the project</span>
                 </div> */}
               </div>
-            </div>
           </div>
         ))}
       </div>

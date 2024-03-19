@@ -24,7 +24,7 @@ function Experience() {
     // },
     {
       id: 2,
-      date: "June 2023 - Feb 2024",
+      date: "June 2023 - Present",
       jobTitle: "Software Engineer",
       company: "1LINK Pvt Ltd",
       description: (
