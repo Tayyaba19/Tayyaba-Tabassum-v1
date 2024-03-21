@@ -3,27 +3,9 @@ import "./Experience.css";
 
 function Experience() {
   const experienceData = [
-    // {
-    //   id: 1,
-    //   date: "March 2024 - Present",
-    //   jobTitle: "Software Engineer",
-    //   company: "Wavetec",
-    //   description: (
-    //     <div>
-    //       <i class="fas fa-chevron-right"></i>
-    //       &nbsp;&nbsp;Remittance Program (SDRP), optimizing the monitoring of payment
-    //       routing from international sources to Pakistan.
-    //       <br />
-    //       <br />
-    //       <i class="fas fa-chevron-right"></i>
-    //       &nbsp;&nbsp;Responsible for enhancement of a project to generate Text and Excel
-    //       (Crystal) reports for settlement of transaction amount across multiple
-    //       banks.
-    //     </div
-    //   ),
-    // },
+  
     {
-      id: 2,
+      id: 1,
       date: "June 2023 - Present",
       jobTitle: "Software Engineer",
       company: "1LINK Pvt Ltd",
@@ -39,7 +21,7 @@ function Experience() {
     },
 
     {
-      id: 3,
+      id: 2,
       date: "June - August 2022",
       jobTitle: "Software Engineer Intern",
       company: "folio3",
@@ -55,7 +37,7 @@ function Experience() {
       ),
     },
     {
-      id: 4,
+      id: 3,
       date: "August 2022 - January 2023",
       jobTitle: "Student Lab Assistant",
       company: "FAST University",
@@ -84,7 +66,6 @@ function Experience() {
     <div className="div-exp" id="experience">
       <h1 className="h1-class">Where I've Worked</h1>
     <h4>EXPERIENCE</h4>
-      {/* <hr /> */}
       <div className="experience-container">
       <div className="company-list">
       {experienceData.map((experience) => (
@@ -101,7 +82,7 @@ function Experience() {
       ))}
     </div>
         <div className="experience-details">
-          {selectedExperience ? (
+    
             <div className="experience-card">
               <div className="header">
                 <h5 className="job-title">{selectedExperience.jobTitle}</h5>
@@ -115,9 +96,7 @@ function Experience() {
               ))}
             </div> */}
             </div>
-          ) : (
-            <p>Select a company to view details</p>
-          )}
+
         </div>
       </div>
       <h3 className="resume" >

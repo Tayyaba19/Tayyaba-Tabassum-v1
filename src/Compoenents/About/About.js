@@ -5,12 +5,12 @@ function About() {
     <div id="about">
       <p className="about-container">
         <h4>ABOUT</h4>
-        Hey there! I'm Tayyaba Tabassum, a dynamic and passionate Software
+        {/* Hey there! I'm Tayyaba Tabassum, a dynamic and passionate Software
         Engineer with a knack for crafting digital experiences that seamlessly
         blend design and functionality.I'm a graduated Software Engineer with a 
         <span> Bachelors in Computer Science from FAST NUCES in June 2023.</span> 
         <br />
-        <br />
+        <br /> */}
         My journey into the world of coding began with a deep dive into web
         development and coding back in 2019. Fast forward to the present,
         I've had the incredible opportunity to contribute my skills to a variety

@@ -129,29 +129,28 @@ width: 60%;
   .home-div{
     width: 90%;
     position:relative;
-    margin-left: 10%;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-left: 5%;
 
   }
   .right-side{
     margin: auto; 
-    margin-top: 79px;
+    margin-top: 50px;
   }
   .right-side h1{
-    font-size: 40px;
-    /* margin-right: auto; */
+    font-size: 37px;
     color: rgb(219, 224, 229);
   
   }
   .right-side h2{
+    margin-top: 5px;
     font-size: 20px;
-    /* text-align: center; */
-    margin-top: -15px;
     color: rgb(227, 229, 233);
   }
   .right-side p{
-    /* text-align: center; */
-    margin-right: 30%;
+    font-weight: 450;
+    font-size: 17px;
+     margin-top: 5px;
     color: rgb(128, 142, 157);
   }
   .list-items{
@@ -159,8 +158,7 @@ width: 60%;
   }
     .social-icons ul{
       display: flex;
-     /* justify-content: center;  */
-      margin-top: 5%;
+      margin-top: 6%;
       list-style: none;
       display: flex;
     }
@@ -174,11 +172,11 @@ width: 60%;
       width: 100%;
     }
     .expreience-div{
-      margin-top: 13%;
+      margin-top: 12%;
     width: 100%;
     }
     .project-div{
-      margin-top: 13%;
+      margin-top: 12%;
     width: 100%;
     
     }
