@@ -130,22 +130,19 @@ width: 60%;
     width: 90%;
     position:relative;
     margin-left: 5%;
-    margin-left: 5%;
-
   }
   .right-side{
     margin: auto; 
     margin-top: 50px;
   }
   .right-side h1{
-    font-size: 37px;
+    font-size: 33px;
     color: rgb(219, 224, 229);
   
   }
   .right-side h2{
-    margin-top: 5px;
-    font-size: 20px;
-    color: rgb(227, 229, 233);
+    font-size: 18px;
+    color: rgb(198, 206, 214);
   }
   .right-side p{
     font-weight: 450;
