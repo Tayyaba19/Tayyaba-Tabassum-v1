@@ -1,26 +1,60 @@
 .project-container{
-    margin-right: 15%;
+    margin-right: 25%;
     margin-left: 15%;
     margin-top: 5%;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
     line-height: 1.5;
     font-family: Inter, sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1;
 
 }
-.project-container h1{
-    text-align: center;
- }
+
  .project-details {
     border-radius: 10px;
-    margin-bottom: 60px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    /* box-shadow:  10px 10px 10px 10px #0000001a; */
   }
-  
-  .project-details h2 {
+  .project-details span{
     color:rgb(94 234 212);
+    font-size: 15px;
+  }
+  .project-details h3{
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 20px;
+    background-color:rgba(45,212,191,.1);
+    color:rgb(94 234 212);
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+  }
+ .iconh3{
+  font-size: 13px;
+    font-weight: 400;
+    color:rgb(94 234 212);
+    padding: 2px 2px;
+    border-radius: 5px;
+    margin-right: 15px;
+    box-shadow: 0px 0px 2px 0px rgb(94 234 212);
+
+ }
+  .image{
+    margin-top: 10px;
+    width: 250px;
+    opacity: 50%;
+  }
+ 
+ .project-details i{
+  font-size: 12px;
+  /* color:rgb(94 234 212); */
+  /* background-color:rgba(45,212,191,.1); */
+
+ }
+  .project-details h2 {
+    margin-bottom: -6px;
+    color: aliceblue;
     font-size: 18px;
-    /* margin-bottom: 6px; */
   }
   
   .details {
@@ -36,7 +70,7 @@
   
   .project-skills li {
     display: inline-block;
-    background-color:rgba(45,212,191,.1);
+    /* background-color:rgba(45,212,191,.1); */
     color:rgb(94 234 212);
     font-size: 12px;
     padding: 2px 5px;
@@ -47,23 +81,112 @@
   
   .giticon {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    margin-top: -10px;
+    
   }
   
   .tooltip {
     position: relative;
-    display: inline-block;
-    margin-right: 15px;
+    display: flex;
+    
+    /* margin-right: 15px; */
   }
   
+  .tooltip .fa-solid{
+    color:rgb(94 234 212);
+    /* background-color:rgba(45,212,191,.1); */
+    margin-left: 8px;
+    font-size: 15px;
+    transition: color 0.3s;
+  }
+  .tooltip .fab{
+    color:rgb(94 234 212);
+    /* background-color:rgba(45,212,191,.1); */
+    margin-left: 8px;
+    font-size: 18px;
+    /* transition: color 0.3s; */
+  }
+  .tooltip i {
+    color: white;
+    /* background-color:rgba(45,212,191,.1); */
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  @media only screen and (max-width: 1024px) {
+    .project-container h1{
+      display: none;
+   } 
+    
+  .project-details .details {
+    font-size: 13px;
+  }
+  .project-details span{
+    color:rgb(94 234 212);
+    font-size: 13px;
+  }
+  .imagediv{
+    flex:1; 
+  }
+  .otherdetails{
+    flex: 0 0 auto;
+  }
+  .project-details h3{
+    font-size: 11px;
+    margin-bottom: -6px;
+    margin-left: 15px;
+  }
+  .iconh3{
+    font-size: 13px;
+      font-weight: 400;
+      color:rgb(94 234 212);
+      padding: 2px 5px;
+      border-radius: 5px;
+      margin-right: 10px;
+      box-shadow: 0px 0px 2px 0px rgb(94 234 212);
+          
+   }
+  .project-container h4{
+    font-size: 16px;
+  }
+  .project-details h2 {
+    color: aliceblue;
+    font-size: 14px;
+    margin-bottom: -6px;
+  }
+  .giticon {
+    display: flex;
+    align-items: center;
+  }
+  .project-container img{
+    width: 180px;
+  }
+   .tooltip {
+    position: relative;
+    display: inline-block;
+    margin-right: 12px;
+  }
+  .tooltip .fa-solid{
+    color:rgb(94 234 212);
+    font-size: 16px;
+
+  }
+  .tooltip .fab{
+    color:rgb(94 234 212);
+    font-size: 19px;
+
+  }
+  .tooltip i{
+    font-size: 23px;
+  }
   .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
+    width: 60px;
     background-color: #333;
     color:rgb(94 234 212);
     text-align: center;
     border-radius: 6px;
-    padding: 5px;
+    padding: 3px;
     position: absolute;
     z-index: 1;
     bottom: 125%;
@@ -72,127 +195,109 @@
     opacity: 0;
     transition: opacity 0.3s;
   }
+   .project-container{
+      margin-right: 5%;
+      margin-left: 5%;
+      margin-top: 0%;
+      margin-bottom: 50px;
+      line-height: 1.5;
+      font-family: Inter, sans-serif;
+      font-feature-settings: 'liga' 1, 'calt' 1;
+      display: flex;
+      align-items: flex-start;
   
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
+    }
+  
   }
-  
-  .tooltip i {
-    color: white;
-    font-size: 24px;
-    transition: color 0.3s;
-  }
-  
-  
-/*.project-details{
-    margin-bottom: 30px; 
-}
-
-.project-details h2{
-    color: white;
-    font-size: 19px;
-    float: left;
-}
-
-.details {
-    float: left;
-    color: rgb(192, 210, 226);
-    background-color: transparent;
-    margin-top: 0;
-    font-size: 15px;
-    font-weight: 300;   
-
-}
-.project-skills {
-    display:flex;
-    float: left;
-    list-style: none;
-    background-color: transparent;
-    font-size: 20px;
-    margin-top: 10px;
-
-}
-.project-skills li {
-    margin-right: 16px;
-    font-size: 10px;
-    color: #04e4e4;
-    background-color: transparent;
-}
-.giticon{
-    float: left;
-    cursor:pointer;
-    background-color: transparent;
-    font-size: 20px;
-}
-.giticon i{
-    font-size: 19px;
-    margin-right: 15px;
-    color: aliceblue;
-}
-
-.tooltip {
-    display: inline;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-} */
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 640px) {
   .project-container h1{
     display: none;
  } 
   
- .details {
-  font-size: 15px;
-  font-weight: 400px;
-  margin-bottom: 15px;
+.project-details .details {
+  font-size: 12px;
 
 }
-.project-skills {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.project-skills li {
-  display: inline-block;
-  background-color:rgba(45,212,191,.1);
+.project-details span{
   color:rgb(94 234 212);
+  font-size: 12px;
+}
+.project-container h4{
   font-size: 14px;
-  padding: 2px 5px;
-  border-radius: 50px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+}
+.project-details h2 {
+  margin-bottom: -6px;
+  color: aliceblue;
+  font-size: 14px;
+}
+.giticon {
+  display: flex;
+  align-items: center;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  margin-right: 12px;
+}
+.iconh3{
+  font-size: 11px;
+    font-weight: 400;
+    color:rgb(94 234 212);
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 2px 0px rgb(94 234 212);
+        
+ }
+.tooltip .fa-solid{
+  color:rgb(94 234 212);
+  font-size: 13px;
+
+}
+.tooltip .fab{
+  color:rgb(94 234 212);
+  font-size: 15px;
+
+}
+.tooltip i{
+  font-size: 18px;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 60px;
+  background-color: #333;
+  color:rgb(94 234 212);
+  text-align: center;
+  border-radius: 6px;
+  padding: 3px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
 }
  .project-container{
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 3%;
+    margin-left: 3%;
     margin-top: 0%;
-    margin-bottom: 90px;
+    margin-bottom: 10px;
     line-height: 1.5;
     font-family: Inter, sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1;
+}
 
+.project-details h3{
+  font-size: 10px;
+  margin-left: 10px;
+  margin-bottom: -60x;
+}
+.image{
+  margin-top: 10px;
+  width: 200px;
+  opacity: 50%;
 }
 
 }

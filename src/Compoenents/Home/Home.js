@@ -62,9 +62,9 @@ function Home() {
     <div className="project-div">
       <Project/>
     </div> 
-    {/* <div className="more-div">
+    <div className="more-div">
       <More/>
-    </div>   */}
+    </div>  
     </div>
   );
 }

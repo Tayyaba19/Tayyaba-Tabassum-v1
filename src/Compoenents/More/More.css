@@ -1,3 +1,43 @@
-p{
-    /* text-align: center; */
+.more-div p{
+    text-align: center;
+    color: rgb(116, 130, 145);
+margin-left: 30%;
+margin-right: 30%;   
+margin-bottom: 20px; 
+font-size: 14px;
+
+}
+/* .more-div{
+    margin: 5px;
+} */
+ .more-div span{
+    color:rgb(134, 234, 219);
+    font-size: 14px;
+ }
+
+@media only screen and (max-width: 1024px) {
+    .more-div p{
+        text-align: center;
+           color: rgb(116, 130, 145);
+       margin-left: 20%;
+       margin-right: 20%; 
+       margin-bottom: 20px; 
+       font-size: 14px;
+       }
+       .more-div span{
+        font-size: 14px;
+     }  
+}
+@media only screen and (max-width: 640px) {
+    .more-div p{
+     text-align: center;
+        color: rgb(116, 130, 145);
+    margin-left: 10%;
+    margin-right: 10%; 
+    margin-bottom: 20px; 
+   font-size: 13px;
+ }
+ .more-div span{
+    font-size: 13px;
+ }  
 }

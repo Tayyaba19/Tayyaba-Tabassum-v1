@@ -2,45 +2,83 @@
     background-color: #111c34;
     font-family: Inter, sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1;   
-    color: rgb(192, 210, 226);
+    color: rgb(173, 176, 179);
 }
 .about-container{
-    padding-top: 70px;
+    padding-top: 100px;
     line-height: 1.5;
     margin-left: 15%;
-    margin-right: 15%;
+    margin-right: 25%;
+    font-size: 15px;
+    font-weight: 400;
+}
+.about-container p{
     font-size: 16px;
-    font-weight: 300;
+}
+.mail{
+    text-decoration: none;
+  color:rgb(94 234 212);
+    
 }
 span{
     color: aliceblue;
     font-weight: 600px;
-    font-size: 14px;
+    font-size: 16px;
 
 }
 h4{
     display: none;
 }
-@media only screen and (max-width: 768px) {
-.about-container{
-    float: right;
-    padding-top: 0px;
-    line-height: 1.5;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 17px;
-    font-weight: 450;
-    color: rgb(128, 142, 157);
 
-
-}
-.about-container span{
-    font-size: 17px;
-    font-family: 500px;
-}
-h4{
+@media only screen and (max-width: 1024px) {
+    .about-container{
+        float: right;
+        padding-top: 0px;
+        line-height: 1.5;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-weight: 400;
+        color: rgb(128, 142, 157);
+    
+    
+    }
+    .about-container p{
+        font-size: 14px;
+    }
+    .about-container span{
+        font-size: 14px;
+        font-weight: 600;
+        color: rgb(201, 206, 211);
+    }
+    h4{
+     font-size: 16px;
         display:block;
-    color: aliceblue;
-    z-index: 1000;
+        color: rgb(231, 238, 244);
+    }
+    
 }
-}
+
+@media only screen and (max-width: 640px) {
+    .about-container{
+        float: right;
+        padding-top: 0px;
+        line-height: 1.5;
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 13px;
+        font-weight: 400;
+        color: rgb(128, 142, 157);
+    
+    
+    }
+    .about-container span{
+        font-size: 13px;
+        font-weight: 600;
+        color: rgb(201, 206, 211);
+    }
+    h4{
+     font-size: 14px;
+        display:block;
+        color: rgb(231, 238, 244);
+    }
+    }
