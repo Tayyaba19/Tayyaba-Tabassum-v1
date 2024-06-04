@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TayyabaV1/static/css/main.c2fb8d71.css",
-    "main.js": "/TayyabaV1/static/js/main.b8d4a8b7.js",
+    "main.css": "/TayyabaV1/static/css/main.da1c6543.css",
+    "main.js": "/TayyabaV1/static/js/main.31c9fcf2.js",
     "static/media/fa-solid-900.ttf": "/TayyabaV1/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/fa-brands-400.ttf": "/TayyabaV1/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
     "static/media/fa-solid-900.woff2": "/TayyabaV1/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
@@ -12,11 +12,11 @@
     "static/media/fa-v4compatibility.ttf": "/TayyabaV1/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
     "static/media/fa-v4compatibility.woff2": "/TayyabaV1/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/TayyabaV1/index.html",
-    "main.c2fb8d71.css.map": "/TayyabaV1/static/css/main.c2fb8d71.css.map",
-    "main.b8d4a8b7.js.map": "/TayyabaV1/static/js/main.b8d4a8b7.js.map"
+    "main.da1c6543.css.map": "/TayyabaV1/static/css/main.da1c6543.css.map",
+    "main.31c9fcf2.js.map": "/TayyabaV1/static/js/main.31c9fcf2.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2fb8d71.css",
-    "static/js/main.b8d4a8b7.js"
+    "static/css/main.da1c6543.css",
+    "static/js/main.31c9fcf2.js"
   ]
 }
